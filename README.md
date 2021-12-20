@@ -2,12 +2,12 @@ This repo contains my trained models for Kaggle Competition - [TF Barrier Reef C
 
 Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 
-## Challenge Track/History
+## Challenge Submission Score Log
 - **First submission**
 	- Date : 14/Dec/2021
 	- Model : Yolov5l
 	- Dataset : default, original with annotation
-	- **My score : 0.325 rank#498th**
+	- **My score : 0.325**
 	- Device : GPU
 	- Leaderboard Rank #1 score : 0.619 as of 16/Dec/2021
 
@@ -16,11 +16,20 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 	- Date : 19/Dec/2021
 	- Model : Yolov5l (previous) + Yolov5l (retrained on enchanced images at 1280)
 	- Dataset : Original + Enhanced Images
-	- **My score : 0.473 rank#260th**
+	- **My score : 0.473**
 	- Device : GPU
 	- Leaderboard Rank #1 score : 0.619 as of 19/Dec/2021
 
-## Train Track/History
+- **Third submission**
+	- Summary : Model Ensembling with "Test Time Augment" set to false and threshold tuned, 3 models are used. Results of both models are fused using [Weighted-Boxes-Fusion](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
+	- Date : 20/Dec/2021
+	- Model : Yolov5l (previous) + Yolov5l (retrained on enchanced images at 1280) + Yolov5l (retrained on enchanced images at 1280)
+	- Dataset : Original + Enhanced Images
+	- **My score : 0.481**
+	- Device : GPU
+	- Leaderboard Rank #1 score : 0.619 as of 19/Dec/2021
+
+## Model Train Log
 - "yolov5l train 1"
 	- Model trained : Yolov5l
 	- Trained on Image Size : 1024
