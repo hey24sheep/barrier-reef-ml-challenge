@@ -25,7 +25,7 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 	- Date : 20/Dec/2021
 	- Model : Yolov5l (previous) + Yolov5l (retrained on enchanced images at 1280) + Yolov5l (retrained on enchanced images at 1280)
 	- Dataset : Original + Enhanced Images
-	- **My score : 0.481**
+	- **My score : 0.488**
 	- Device : GPU
 	- Leaderboard Rank #1 score : 0.619 as of 19/Dec/2021
 
