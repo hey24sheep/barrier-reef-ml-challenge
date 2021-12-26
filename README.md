@@ -5,8 +5,8 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 > NOTE : all weights of training are on Kaggle account private dataset.
 
 ## Leaderboard Scores
-- [26 Dec 2021] 1st Competitor : 0.658 || My Score : 0.488
-- [19 Dec 2021] 1st Competitor : 0.619 || My Score : 0.488
+- [26 Dec 2021] 1st Competitor : 0.658 || My Score : 0.501
+- [20 Dec 2021] 1st Competitor : 0.619 || My Score : 0.488
 - [19 Dec 2021] 1st Competitor : 0.619 || My Score : 0.473
 - [16 Dec 2021] 1st Competitor : 0.619 || My Score : 0.325
 
@@ -17,7 +17,7 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 	- Dataset : default, original with annotation
 	- **My score : 0.325**
 	- Device : GPU
-	- Leaderboard Rank #1 score : 0.619 as of 16/Dec/2021
+	- Leaderboard Rank #1 score : 0.619
 
 - **Second submission**
 	- Summary : Model Ensembling, with 1st model running on original images and 2nd running on enhanced images with different Conf + IOU thresholds for each model. Results of both models are fused using [Weighted-Boxes-Fusion](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
@@ -26,7 +26,7 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 	- Dataset : Original + Enhanced Images
 	- **My score : 0.473**
 	- Device : GPU
-	- Leaderboard Rank #1 score : 0.619 as of 19/Dec/2021
+	- Leaderboard Rank #1 score : 0.619
 
 - **Third submission**
 	- Summary : Model Ensembling with "Test Time Augment" set to false and threshold tuned, 3 models are used. Results of both models are fused using [Weighted-Boxes-Fusion](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
@@ -35,7 +35,17 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 	- Dataset : Original + Enhanced Images
 	- **My score : 0.488**
 	- Device : GPU
-	- Leaderboard Rank #1 score : 0.619 as of 19/Dec/2021
+	- Leaderboard Rank #1 score : 0.619
+
+- **Fourth submission**
+	- Summary : Model ensembling + new image pre-processing 
+	- Date : 26/Dec/2021
+	- Model : Yolov5l (previous) + Yolov5l6 (retrained on new CLAHE processed images at 1280)x2
+	- Dataset : New Enhanced Images
+	- **My score : 0.501**
+	- Device : GPU
+	- Leaderboard Rank #1 score : 0.658
+
 
 ## Model Train Log
 - "yolov5l train 1"
@@ -55,3 +65,9 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 	- Trained on Image Size : 1280
 	- Epochs : 12
 	- Dataset details : Trained on ehanced+augmented data.
+
+- "yolov5l6 train (Ongoing)"
+	- Model trained : Yolov5l6
+	- Trained on Image Size : 1280
+	- Epochs : -
+	- Dataset details : Trained on new ehanced+augmented data.
