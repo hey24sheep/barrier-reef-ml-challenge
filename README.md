@@ -4,6 +4,12 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 
 > NOTE : all weights of training are on Kaggle account private dataset.
 
+## Leaderboard Scores
+- [26 Dec 2021] 1st Competitor : 0.658 || My Score : 0.488
+- [19 Dec 2021] 1st Competitor : 0.619 || My Score : 0.488
+- [19 Dec 2021] 1st Competitor : 0.619 || My Score : 0.473
+- [16 Dec 2021] 1st Competitor : 0.619 || My Score : 0.325
+
 ## Challenge Submission Score Log
 - **First submission**
 	- Date : 14/Dec/2021
