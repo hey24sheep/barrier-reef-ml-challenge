@@ -1,0 +1,1 @@
+This model was trained on a better processed dataset with new YOLOv5l6.pt which is latest version 6 release by ultralytics as of 26 Dec 2021

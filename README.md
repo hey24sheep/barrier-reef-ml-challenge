@@ -2,6 +2,8 @@ This repo contains my trained models for Kaggle Competition - [TF Barrier Reef C
 
 Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 
+> NOTE : all weights of training are on Kaggle account private dataset.
+
 ## Challenge Submission Score Log
 - **First submission**
 	- Date : 14/Dec/2021
