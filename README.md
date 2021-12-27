@@ -5,7 +5,7 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 > NOTE : all weights of training are on Kaggle account private dataset.
 
 ## Leaderboard Scores
-- [26 Dec 2021] 1st Competitor : 0.658 || My Score : 0.501
+- [26 Dec 2021] 1st Competitor : 0.658 || My Score : 0.502
 - [20 Dec 2021] 1st Competitor : 0.619 || My Score : 0.488
 - [19 Dec 2021] 1st Competitor : 0.619 || My Score : 0.473
 - [16 Dec 2021] 1st Competitor : 0.619 || My Score : 0.325
@@ -42,7 +42,7 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 	- Date : 26/Dec/2021
 	- Model : Yolov5l (previous) + Yolov5l6 (retrained on new CLAHE processed images at 1280)x2
 	- Dataset : New Enhanced Images
-	- **My score : 0.501**
+	- **My score : 0.502**
 	- Device : GPU
 	- Leaderboard Rank #1 score : 0.658
 
