@@ -2,9 +2,12 @@ This repo contains my trained models for Kaggle Competition - [TF Barrier Reef C
 
 Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 
-> NOTE : all weights of training are on Kaggle account private dataset.
+> NOTE : all weights of training are on my Kaggle account private dataset.
+
+> NOTE : all training is done on Kaggle Free GPU quota of 36 hours/week
 
 ## Leaderboard Scores
+- [30 Dec 2021] 1st Competitor : 0.658 || My Score : 0.512
 - [26 Dec 2021] 1st Competitor : 0.658 || My Score : 0.502
 - [20 Dec 2021] 1st Competitor : 0.619 || My Score : 0.488
 - [19 Dec 2021] 1st Competitor : 0.619 || My Score : 0.473
@@ -46,6 +49,10 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 	- Device : GPU
 	- Leaderboard Rank #1 score : 0.658
 
+- **Fifth submission**
+	- Same as previous with params modifications.
+	- Date : 30/Dec/2021
+	- **My score : 0.512**
 
 ## Model Train Log
 - "yolov5l train 1"
