@@ -6,7 +6,8 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 
 > NOTE : all training is done on Kaggle Free GPU quota of 36 hours/week
 
-## Leaderboard Scores
+## [Leaderboard Scores](https://www.kaggle.com/c/tensorflow-great-barrier-reef/leaderboard)
+- [02 Jan 2022] 1st Competitor : 0.672 || My Score : 0.513
 - [30 Dec 2021] 1st Competitor : 0.658 || My Score : 0.512
 - [26 Dec 2021] 1st Competitor : 0.658 || My Score : 0.502
 - [20 Dec 2021] 1st Competitor : 0.619 || My Score : 0.488
