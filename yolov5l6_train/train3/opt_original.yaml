@@ -1,7 +1,7 @@
 weights: ./reef_enhanced_1280/train_yolov5l6_1/weights/last.pt
 cfg: ''
 data: /kaggle/working/reef.yaml
-hyp: ./reef_enhanced_1280/train_yolov5l6_1/hyp.finetune.yaml
+hyp: /kaggle/input/yolov5pip/yolov5-pip/yolov5/data/hyps/hyp.finetune.yaml
 epochs: 300
 batch_size: 7
 imgsz: 1280
