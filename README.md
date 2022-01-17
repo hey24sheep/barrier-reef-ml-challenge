@@ -11,6 +11,7 @@ Used Ultralytics/Yolov5 weights to re-train on Challenge Dataset.
 > NOTE 4: only the best submission data is logged here
 
 ## [Leaderboard Scores](https://www.kaggle.com/c/tensorflow-great-barrier-reef/leaderboard)
+- [17 Jan 2022] 1st Competitor : 0.720 || My Score : 0.520
 - [15 Jan 2022] 1st Competitor : 0.692 || My Score : 0.520
 - [02 Jan 2022] 1st Competitor : 0.673 || My Score : 0.513
 - [02 Jan 2022] 1st Competitor : 0.672 || My Score : 0.513
